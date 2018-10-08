@@ -18,6 +18,11 @@ function frameIt(){
 }
 
 function pressIt(){
-  
+  $("input").on("keydown",function(e){
+    if(e.key === "g"){
+      alert("pop")
+    }
+  }
+  )
 }
 
